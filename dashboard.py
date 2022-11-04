@@ -4,7 +4,7 @@ import plotly.express as px
 import plost
 
 st.set_page_config(layout="wide")
-df = pd.read_csv('D:\diabetes1.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/MrinmayeeS/mrinmayee-dashboard_st/8334994a280bde5295c168e77bd6e9f8d8bffb2d/diabetes1.csv')
 
 def displaytable():
     st.title('Data Table')
